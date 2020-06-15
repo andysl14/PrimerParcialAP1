@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="DATA\" />
-    <Folder Include="Migrations\" />
     <Folder Include="UI\Consultas\" />
   </ItemGroup>
 
@@ -39,6 +38,12 @@
     <Resource Include="Resources\floppy-disk.png" />
     <Resource Include="Resources\plus.png" />
     <Resource Include="Resources\trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DATA\PrimerParcial.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
