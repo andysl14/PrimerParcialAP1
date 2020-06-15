@@ -8,8 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\car main.png" />
+    <None Remove="Resources\car.png" />
+    <None Remove="Resources\CarRed.ico" />
+    <None Remove="Resources\find.png" />
+    <None Remove="Resources\floppy-disk.png" />
+    <None Remove="Resources\plus.png" />
+    <None Remove="Resources\trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
     <Folder Include="DATA\" />
     <Folder Include="Entidades\" />
     <Folder Include="Migrations\" />
@@ -22,6 +31,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\car main.png" />
+    <Resource Include="Resources\car.png" />
+    <Resource Include="Resources\CarRed.ico" />
+    <Resource Include="Resources\find.png" />
+    <Resource Include="Resources\floppy-disk.png" />
+    <Resource Include="Resources\plus.png" />
+    <Resource Include="Resources\trash.png" />
   </ItemGroup>
 
 </Project>
