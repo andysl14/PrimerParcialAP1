@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BLL\" />
     <Folder Include="DATA\" />
     <Folder Include="Migrations\" />
     <Folder Include="UI\Consultas\" />
