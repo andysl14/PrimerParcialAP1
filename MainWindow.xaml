@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="Proyecto Parcial 1" Height="450" Width="800">
     <Grid>
-
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Registros">
+                    <MenuItem x:Name="ArticuloMenuItem" Header="Registro Articulo" Click="ArticuloMenuItem_Click"></MenuItem>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
     </Grid>
 </Window>

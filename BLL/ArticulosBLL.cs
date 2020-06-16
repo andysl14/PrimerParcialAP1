@@ -95,6 +95,7 @@ namespace PrimerParcial.BLL
 
                 if(articulo != null)
                 {
+                    contexto.Articulos.Remove(articulo);
                     paso = contexto.SaveChanges() > 0;
                 }
             }

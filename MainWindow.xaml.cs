@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrimerParcial.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace PrimerParcial
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ArticuloMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rArticulos rArticulos = new rArticulos();
+            rArticulos.Show();
         }
     }
 }
